@@ -1,0 +1,42 @@
+============= PARA A CORRETA EXECUÇÃO DO CÓDIGO, É NECESSÁRIO: ============================
+
+1)JAVA JDK 8:
+link atualizado: https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+Configurando variáveis de ambiente: https://youtu.be/CMHU5buXvNw?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r
+https://youtu.be/CMHU5buXvNw?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r
+
+2)Netbeans 8.2 ou outra IDE:
+link: https://netbeans.org/downloads/old/8.2/
+
+3)Xampp 
+link: https://www.apachefriends.org/pt_br/download.html
+
+3)Conector MySQL para Java
+link: https://dev.mysql.com/downloads/connector/j/5.1.html
+Como instalar: https://www.youtube.com/watch?v=Z5Nmu3xeXXw&list=PLS7ijbHHSrdkP-MkPZQAdKxvCiUxI7Mt_&index=2
+
+===================================================================================
+CREATE DATABASE agencia_turismo;
+
+
+USE agencia_turismo;
+
+
+CREATE TABLE agendamentos(
+
+codigo_agendamento int(12) PRIMARY KEY AUTO_INCREMENT,
+
+nome_cliente varchar(30),
+
+email_cliente varchar(30),
+
+descricao_servico varchar(100),
+
+valor double(15,2),
+
+data_ida varchar(10),
+
+data_retorno varchar(10),
+
+observacao varchar(100)
+);
