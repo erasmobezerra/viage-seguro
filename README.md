@@ -4,7 +4,7 @@ Este projeto é parte do trabalho de conclusão do curso Técnico em Desenvolvim
 
 Era nescessário desenvolver um aplicativo desktop em Java que tivesse a funcionalidade básica de um CRUD, ou seja, que realizasse as quatro operações básicas (criação, consulta, atualização e destruição de dados) utilizadas em bases de dados relacionais. 
 
-Foi desenvolvido um software que pudesse armazenar, consultar, alterar, excluir e gerar relatório dos agendamentos de pacotes de viagens dos clientes da nossa empresa fictícia Viagem Segure. 
+Foi desenvolvido um software que pudesse armazenar, consultar, alterar e excluir dados dos agendamentos de pacotes de viagens dos clientes da nossa empresa fictícia Viagem Segure. 
  
 Foi utilizada a linguagem de programação Java, versão 8. Para escrever e compilar o código, foi usado a IDE NetBeans 8.2. O Sistema de gerenciamento de banco de dados foi o MySQL, servidor Apache, todos presentes no pacote de distribuição Xampp. 
 
